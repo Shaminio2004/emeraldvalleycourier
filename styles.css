@@ -110,6 +110,10 @@ a.card:hover .more,.card .more:hover{color:var(--orange)}
 .figure .ph{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:14px}
 .figure .ph span{position:relative}
 .figure img{width:100%;height:auto;display:block}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:26px 0 30px}
+.gallery figure{margin:0}
+.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;border-radius:4px}
+.gallery figcaption{font-size:13px;color:var(--muted);padding-top:6px;font-family:Inter,sans-serif}
 .figure figcaption{font-size:13px;color:var(--muted);padding:8px 20px 0}
 .article .prose p{font-size:19px;line-height:1.75;margin-bottom:22px;font-family:Georgia,serif;color:#1d2224}
 .article .prose h2{font-family:Fraunces,serif;font-size:28px;margin:34px 0 14px}
