@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Press | Emerald Valley Courier</title>
+<meta name="description" content="Verify Emerald Valley Courier press credentials and request media access for shows, festivals and interviews.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span id="today">Eugene, Oregon</span>
+  <span>Submissions: <a href="mailto:paoloskid@gmail.com">paoloskid@gmail.com</a></span>
+</div></div>
+
+<header class="mast">
+  <svg class="waves" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="none" stroke="#3cb48c" stroke-width="1.5">
+      <path d="M0 150 C 200 60, 400 240, 600 150 S 1000 60, 1200 150"/>
+      <path d="M0 170 C 200 80, 400 260, 600 170 S 1000 80, 1200 170"/>
+      <path d="M0 130 C 200 40, 400 220, 600 130 S 1000 40, 1200 130"/>
+      <path d="M0 190 C 220 110, 380 270, 600 190 S 980 110, 1200 190"/>
+      <path d="M0 110 C 220 30, 380 190, 600 110 S 980 30, 1200 110"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <a class="logo" href="index.html">Emerald Valley Courier</a>
+    <div class="tag">Reggae · World Music · Bands</div>
+    <nav class="main" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reggae.html">Reggae</a></li>
+        <li><a href="world.html">World</a></li>
+        <li><a href="bands.html">Bands</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="press.html" class="active">Press</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <div class="crumb"><a href="index.html">Home</a> / Press</div>
+    <h1>Press &amp; Credentials</h1>
+    <p>For venues, promoters, tour managers and festival organizers: confirm our credentials and request photo pit, interview or guest-list access.</p>
+  </div>
+</main>
+<section class="band-dark verify">
+  <div class="wrap box">
+    <div>
+      <h2>Press Credential Verification</h2>
+      <p>Venues, promoters, tour managers and festival organizers can confirm Emerald Valley Courier press credentials here. For photo pits, interviews or guest-list requests, contact the publisher directly.</p>
+      <a class="btn" href="mailto:paoloskid@gmail.com?subject=Credential%20verification%20EVC-2026-0147">Contact to verify</a>
+    </div>
+    <div class="cred">
+      <div class="band">PRESS · EMERALD VALLEY COURIER</div>
+      <dl>
+        <dt>Name</dt><dd>Paolos Kidanemariam</dd>
+        <dt>Title</dt><dd>Music Journalist</dd>
+        <dt>Credential</dt><dd>EVC-2026-0147</dd>
+        <dt>Valid</dt><dd>10/16/2026 – 10/16/2027</dd>
+        <dt>Status</dt><dd><span class="status">Active</span></dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div><strong>Emerald Valley Courier</strong><br>Reggae · World Music · Bands · Eugene, Oregon</div>
+      <nav aria-label="Footer">
+        <a href="reggae.html">Reggae</a><a href="world.html">World</a><a href="bands.html">Bands</a><a href="live.html">Live</a><a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="small">© <span id="yr">2026</span> Emerald Valley Courier. All rights reserved. · <a href="mailto:paoloskid@gmail.com">paoloskid@gmail.com</a></div>
+  </div>
+</footer>
+
+<script>
+  const d = new Date();
+  document.getElementById('yr').textContent = d.getFullYear();
+  document.getElementById('today').textContent =
+    d.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'}) + ' · Eugene, Oregon';
+</script>
+</body>
+</html>
