@@ -157,6 +157,16 @@ footer .small{margin-top:14px;font-size:13px}
 .lb-prev{left:14px;top:50%;transform:translateY(-50%)}
 .lb-next{right:14px;top:50%;transform:translateY(-50%)}
 @media (max-width:560px){.photo-grid{grid-template-columns:repeat(3,1fr)}.lb-prev,.lb-next{top:auto;bottom:18px;transform:none}}
+/* album covers */
+.covers{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:8px 0 28px}
+.covers figure{margin:0}
+.covers figcaption{font-family:Inter,sans-serif;font-size:12px;color:var(--muted);padding-top:6px;line-height:1.35}
+.covers img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.cover{float:right;width:220px;margin:4px 0 14px 22px}
+.cover img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.cover figcaption{font-family:Inter,sans-serif;font-size:12px;color:var(--muted);padding-top:6px;line-height:1.4}
+.prose h2{clear:both}
+@media (max-width:560px){.cover{float:none;width:70%;margin:10px auto 18px}}
 @media (max-width:900px){
   .hero,.about,.verify .box,.contact{grid-template-columns:1fr}
   .grid,.grid.three{grid-template-columns:repeat(2,1fr)}
