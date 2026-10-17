@@ -127,6 +127,13 @@ footer nav a{color:#d7dadb;text-decoration:none;margin-right:16px;font-weight:60
 footer nav a:hover{color:var(--orange)}
 footer .small{margin-top:14px;font-size:13px}
 
+/* homepage portrait */
+.hero-portrait{position:relative;margin:0;align-self:center;max-width:420px;justify-self:center;width:100%}
+.hero-portrait img{width:100%;height:auto;border-radius:6px;box-shadow:0 18px 40px rgba(6,40,32,.35)}
+.hero-portrait::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:10px;border-radius:0 0 6px 6px;background:linear-gradient(90deg,#ce1126 0 33.3%,#fcd116 33.3% 66.6%,#00873e 66.6%)}
+.hero-portrait figcaption{position:absolute;left:0;right:0;bottom:0;padding:56px 18px 16px;border-radius:0 0 6px 6px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:#fff;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.hero-portrait figcaption span{display:block;font-family:Fraunces,Georgia,serif;font-size:22px;letter-spacing:0;text-transform:none;margin-bottom:4px;color:#fcd116}
+
 @media (max-width:900px){
   .hero,.about,.verify .box,.contact{grid-template-columns:1fr}
   .grid,.grid.three{grid-template-columns:repeat(2,1fr)}
