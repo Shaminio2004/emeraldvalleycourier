@@ -184,3 +184,5 @@ footer .small{margin-top:14px;font-size:13px}
   .topbar .wrap{flex-direction:column;align-items:center;gap:2px}
   nav.main ul{gap:4px 18px}
 }
+
+a[href^="tel:"]{white-space:nowrap}
