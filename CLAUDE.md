@@ -4,5 +4,5 @@
 - Articles are built from `article-template.html`; photos go in `images/`.
 - Publisher: Paolos Kidanemariam (evc541news@gmail.com).
 - **Keep Alborosie highlighted on the homepage (`index.html`).** The "Featured Album" box (Alborosie, *Nine Mile*) and the hero button linking to `alborosie-get-down-2026.html` stay. Add new features alongside them, never in place of them.
-- **Keep the Shengen Clan (Alborosie's band) features on the Bands page (`bands.html`).** The "Watch: Band in Review" video, the Shengen Clan photo gallery and the featured "Band in Review" card linking to `shengen-clan-band-review.html` stay. Other cards may rotate; these do not.
+- **Keep the Shengen Clan (Alborosie's band) features on the Bands page (`bands.html`), with the "Latest" section (Shengen Clan featured card + Michael Leslie spotlight) at the top of the page.** The "Watch: Band in Review" video, the Shengen Clan photo gallery and the featured "Band in Review" card linking to `shengen-clan-band-review.html` stay. Other cards may rotate; these do not.
 
