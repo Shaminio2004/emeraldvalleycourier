@@ -196,3 +196,7 @@ footer .small{margin-top:14px;font-size:13px}
 }
 
 a[href^="tel:"]{white-space:nowrap}
+
+/* responsive video embed */
+.video-embed{position:relative;aspect-ratio:16/9;margin:8px 0 28px;background:#000;border-radius:4px;overflow:hidden}
+.video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
