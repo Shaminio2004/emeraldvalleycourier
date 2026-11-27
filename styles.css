@@ -202,3 +202,5 @@ a[href^="tel:"]{white-space:nowrap}
 /* responsive video embed */
 .video-embed{position:relative;aspect-ratio:16/9;margin:8px 0 28px;background:#000;border-radius:4px;overflow:hidden}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+.staff img[src$="favicon-192.png"]{height:150px;object-fit:contain;background:#0f2e26}
