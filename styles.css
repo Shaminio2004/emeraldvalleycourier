@@ -204,9 +204,3 @@ a[href^="tel:"]{white-space:nowrap}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 
 .staff img[src$="favicon-192.png"]{height:150px;object-fit:contain;background:#0f2e26}
-/* Homepage masthead photo: Paolos with Alborosie (left side) */
-.mast-photo{position:absolute;left:24px;top:50%;transform:translateY(-50%);display:block;width:150px;text-decoration:none;text-align:center}
-.mast-photo img{width:150px;height:150px;object-fit:cover;border-radius:50%;border:4px solid #fff;outline:3px solid var(--orange);display:block}
-.mast-photo span{display:block;margin-top:8px;color:var(--mint);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
-.mast .wrap.has-photo{padding-left:190px;padding-right:190px}
-@media (max-width:900px){.mast-photo{position:static;transform:none;margin:0 auto 14px;width:96px}.mast-photo img{width:96px;height:96px}.mast-photo span{font-size:10px;white-space:nowrap}.mast .wrap.has-photo{padding-left:16px;padding-right:16px}}
